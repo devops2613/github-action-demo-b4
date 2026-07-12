@@ -1,5 +1,5 @@
 name: GitHub Actions Demo 
-run-name: Testing out GitHub Actions_demo
+run-name: Testing out GitHub Actions_demo run by ${{ github.actor}} on ${{ github.ref_name}}
 on: [push] 
 jobs:
   Basic-Workflow: 
